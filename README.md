@@ -15,6 +15,26 @@ Introduction to:
 https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/01-python_basics_numpy_pandas_sklearn_intro.ipynb
 )
 
+### Hands-on 2: K-means Clustering (Bank Customer Segmentation)
+
+This notebook introduces k-means clustering using scikit-learn.
+
+You will:
+- Load `vs_bank.csv`
+- Select demographic and financial variables
+- Standardise features
+- Use within-cluster sum of squares (WCSS) to choose k
+- Profile and interpret customer segments
+- Extend to mixed data using k-prototypes (optional)
+
+### Open in Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/02_kmeans_clustering_vs_bank_full_updated.ipynb
+)
+
+
+
 ## How to Open in Google Colab
 
 1. Click the **Open in Colab** badge above.
