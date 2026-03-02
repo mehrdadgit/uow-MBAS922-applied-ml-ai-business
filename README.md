@@ -30,7 +30,7 @@ You will:
 ### Open in Google Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/02_kmeans_clustering_vs_bank_full_updated.ipynb
+https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/02_kmeans_clustering_vs_bank.ipynb
 )
 
 
