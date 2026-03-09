@@ -27,12 +27,30 @@ You will:
 - Profile and interpret customer segments
 - Extend to mixed data using k-prototypes (optional)
 
-### Open in Google Colab
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/02_kmeans_clustering_vs_bank.ipynb
 )
 
+## Hands-on 3: Decision Trees and Ensemble Learning
+
+This notebook introduces classification models using scikit-learn, starting with a simple decision tree and then extending to ensemble methods.
+
+You will:
+- Load the dataset `vs_bank_part.csv`
+- Use a predefined partition (`partition_Indicator`) to create training and validation sets
+- Build a **Decision Tree** baseline model
+- Improve performance using **Random Forest** and **Gradient Boosting**
+- Compare models using multiple evaluation metrics including:
+  - Accuracy
+  - True Positive Rate (Sensitivity)
+  - True Negative Rate (Specificity)
+  - F1 Score
+- Interpret improvements from ensemble learning
+
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/03_decision_tree_random_forest_gradient_boosting_vs_bank_part.ipynb
+)
 
 
 ## How to Open in Google Colab
