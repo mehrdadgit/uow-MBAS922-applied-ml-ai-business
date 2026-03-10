@@ -31,7 +31,7 @@ You will:
 https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/02_kmeans_clustering_vs_bank.ipynb
 )
 
-## Hands-on 3: Decision Trees and Ensemble Learning
+### Hands-on 3: Decision Trees and Ensemble Learning
 
 This notebook introduces classification models using scikit-learn, starting with a simple decision tree and then extending to ensemble methods.
 
