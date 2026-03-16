@@ -53,6 +53,38 @@ https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-bu
 )
 
 
+
+### Hands-on 4: Neural Networks (MLP) and Support Vector Machines
+
+This notebook introduces two important classification models using **scikit-learn**:
+
+- **Neural Networks** using a Multi-Layer Perceptron (MLP)
+- **Support Vector Machines (SVM)**
+
+You will:
+
+- Load the dataset `vs_bank_part.csv`
+- Use the provided `partition_Indicator` column to create **training** and **validation** datasets
+- Use categorical and numeric predictors to model the binary target variable `b_tgt`
+- Fit a **Neural Network (MLP)** model
+- Fit a **Support Vector Machine (SVM)** model
+- Use a specified cutoff to generate predictions
+- Evaluate models using:
+  - Confusion matrix
+  - Validation misclassification rate
+  - ROC curve
+  - AUC (Area Under the Curve)
+  - KS / Youden statistic
+- Compare the performance of the two models
+- Experiment with key parameters such as network structure, SVM kernels, and regularisation settings
+
+For faster training, the SVM model is fitted on a **10% sample of the training data**, while still evaluating on the full validation set.
+
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/04_mlp_svm_vs_bank_part.ipynb
+)
+
 ## How to Open in Google Colab
 
 1. Click the **Open in Colab** badge above.
