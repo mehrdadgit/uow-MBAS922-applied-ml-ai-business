@@ -85,6 +85,46 @@ For faster training, the SVM model is fitted on a **10% sample of the training d
 https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/04_mlp_svm_vs_bank_part.ipynb
 )
 
+### Hands-on 5: Deep Learning with TensorFlow (MLP, CNN, RNN)
+
+This notebook introduces **deep learning models** using **TensorFlow and Keras** in Google Colab:
+
+- **Basic Multi-Layer Perceptron (MLP)**
+- **Deep MLP neural network**
+
+You will:
+
+- Load the dataset `vs_bank_part.csv`
+- Use the `partition_Indicator` column to create **training** and **validation** datasets
+- Use categorical and numeric predictors to model the binary target variable `b_tgt`
+- Preprocess data using:
+  - One-hot encoding
+  - Feature scaling
+- Fit a **basic MLP** model
+- Extend it to a **deep MLP** with additional layers and dropout
+- Evaluate models using:
+  - Confusion matrix
+  - Validation accuracy
+  - Validation misclassification rate
+- Compare basic vs deep neural networks
+- Visualise training and validation performance
+- Experiment with key parameters such as:
+  - Number of layers and neurons
+  - Dropout rates
+  - Epochs and batch size
+
+The notebook also includes very simple examples of:
+- **CNNs** (for image data)
+- **RNNs** (for sequence data)
+
+All models are designed to run efficiently in **Google Colab**, with optional GPU acceleration.
+
+---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/05_small_deep_learning_colab_notebook.ipynb
+)
+
 ## How to Open in Google Colab
 
 1. Click the **Open in Colab** badge above.
