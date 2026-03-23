@@ -94,12 +94,12 @@ This notebook introduces **deep learning models** using **TensorFlow and Keras**
 
 You will:
 
-- Load the dataset `vs_bank_part.csv`
-- Use the `partition_Indicator` column to create **training** and **validation** datasets
-- Use categorical and numeric predictors to model the binary target variable `b_tgt`
+- Load the dataset `bank-full.csv`
+- Use categorical and numeric predictors to model the binary target variable `y`
 - Preprocess data using:
   - One-hot encoding
   - Feature scaling
+- Split the data into **training** and **validation** sets
 - Fit a **basic MLP** model
 - Extend it to a **deep MLP** with additional layers and dropout
 - Evaluate models using:
