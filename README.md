@@ -15,6 +15,7 @@ Introduction to:
 https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/01-python_basics_numpy_pandas_sklearn_intro.ipynb
 )
 
+---
 ### Hands-on 2: K-means Clustering (Bank Customer Segmentation)
 
 This notebook introduces k-means clustering using scikit-learn.
@@ -31,6 +32,7 @@ You will:
 https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/02_kmeans_clustering_vs_bank.ipynb
 )
 
+---
 ### Hands-on 3: Decision Trees and Ensemble Learning
 
 This notebook introduces classification models using scikit-learn, starting with a simple decision tree and then extending to ensemble methods.
@@ -52,7 +54,7 @@ You will:
 https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/03_decision_tree_random_forest_gradient_boosting_vs_bank_part.ipynb
 )
 
-
+---
 
 ### Hands-on 4: Neural Networks (MLP) and Support Vector Machines
 
@@ -84,6 +86,7 @@ For faster training, the SVM model is fitted on a **10% sample of the training d
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/04_mlp_svm_vs_bank_part.ipynb
 )
+---
 
 ### Hands-on 5: Deep Learning with TensorFlow (MLP, CNN, RNN)
 
@@ -119,12 +122,12 @@ The notebook also includes very simple examples of:
 
 All models are designed to run efficiently in **Google Colab**, with optional GPU acceleration.
 
----
+
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/05_small_deep_learning_colab_notebook.ipynb
 )
-
+---
 ### Hands-on 6: Model Interpretability (Global and Local Explanations)
 
 This notebook introduces **model interpretability techniques** for machine learning models using **scikit-learn, LIME, and SHAP** on the **Bank Marketing dataset (`bank-full.csv`)**:
@@ -160,12 +163,12 @@ The notebook highlights how different interpretability approaches provide **comp
 
 All methods are designed to run efficiently in **Google Colab**, with lightweight configurations for SHAP to reduce computation time.
 
----
+
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/06_global_local_interpretability_bank_marketing.ipynb
 )
-
+---
 
 ## How to Open in Google Colab
 
