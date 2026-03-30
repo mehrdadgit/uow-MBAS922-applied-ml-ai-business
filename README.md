@@ -125,6 +125,48 @@ All models are designed to run efficiently in **Google Colab**, with optional GP
 https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/05_small_deep_learning_colab_notebook.ipynb
 )
 
+### Hands-on 6: Model Interpretability (Global and Local Explanations)
+
+This notebook introduces **model interpretability techniques** for machine learning models using **scikit-learn, LIME, and SHAP** on the **Bank Marketing dataset (`bank-full.csv`)**:
+
+- **Permutation Feature Importance** (global feature ranking)
+- **Partial Dependence Plots (PDP)** (global behaviour)
+- **LIME** (local explanation)
+- **SHAP** (local explanation)
+
+You will:
+
+- Load the dataset `bank-full.csv`
+- Use categorical and numeric predictors to model the binary target variable `y`
+- Preprocess data using:
+  - One-hot encoding
+  - Feature scaling
+- Split the data into **training** and **validation** sets
+- Fit a **Neural Network (MLPClassifier)** model using scikit-learn
+- Evaluate the model using:
+  - Confusion matrix
+  - Validation accuracy
+  - Validation misclassification rate
+- Perform **global interpretability** using:
+  - Permutation feature importance (feature ranking)
+  - Partial dependence plots (average feature effects)
+- Perform **local interpretability** using:
+  - LIME (local surrogate explanations)
+  - SHAP (Shapley value-based explanations)
+- Compare global vs local explanations
+- Analyse whether different interpretability methods provide consistent insights
+
+The notebook highlights how different interpretability approaches provide **complementary perspectives** on a model’s behaviour, especially for complex models such as neural networks.
+
+All methods are designed to run efficiently in **Google Colab**, with lightweight configurations for SHAP to reduce computation time.
+
+---
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/mehrdadgit/uow-MBAS922-applied-ml-ai-business/blob/main/Notebooks/06_global_local_interpretability_bank_marketing.ipynb
+)
+
+
 ## How to Open in Google Colab
 
 1. Click the **Open in Colab** badge above.
